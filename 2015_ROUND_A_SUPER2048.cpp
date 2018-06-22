@@ -26,11 +26,11 @@ int main(){
     int T,y;cin>>T;
     loop1(t,T){
         int n;string dir;
-        cin>>n>>dir;int matrix[n][n],matrix2[n][n];
+        cin>>n>>dir;int matrix[n][n];
 
         loop(i,n){
             loop(j,n){
-                cin>>matrix[i][j];matrix2[i][j]=matrix[i][j];
+                cin>>matrix[i][j];
             }
         }
         if(dir=="up"){
